@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "MotoApp - Viajeros",
+    "slug": "appMotos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.appmotos.viajeros"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FF6B00",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDvkROYnVnCL1llowU6QxfXZV3UBpwZKWM"
+        }
+      },
+      "package": "com.appmotos.viajeros"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-asset"
+    ]
+  }
+}
